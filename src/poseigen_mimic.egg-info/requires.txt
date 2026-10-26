@@ -1,0 +1,8 @@
+numpy
+torch
+poseigen_trident
+
+[dev]
+build
+twine
+pytest

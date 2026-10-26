@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poseigen_mimic"
+version = "0.1.0"
+description = "Unified sequence-embedding architectures for the Poseigen family"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+authors = [{ name = "Husam Abdulnabi", email = "husam.abdulnabi@gmail.com" }]
+maintainers = [{ name = "Husam Abdulnabi", email = "husam.abdulnabi@gmail.com" }]
+keywords = ["poseigen", "bioinformatics", "machine-learning", "neural-networks"]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+  "numpy",
+  "torch",
+  "poseigen_trident",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build",
+  "twine",
+  "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/husam94/poseigen"
+Repository = "https://github.com/husam94/poseigen"
+Issues = "https://github.com/husam94/poseigen/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["poseigen_mimic"]

@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: poseigen_mimic
+Version: 0.1.0
+Summary: Unified sequence-embedding architectures for the Poseigen family
+Author-email: Husam Abdulnabi <husam.abdulnabi@gmail.com>
+Maintainer-email: Husam Abdulnabi <husam.abdulnabi@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/husam94/poseigen
+Project-URL: Repository, https://github.com/husam94/poseigen
+Project-URL: Issues, https://github.com/husam94/poseigen/issues
+Keywords: poseigen,bioinformatics,machine-learning,neural-networks
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: poseigen_trident
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Dynamic: license-file
+
+# Mimic
+
+Mimic is the sequence-embedding architecture package in the Poseigen family.
+It provides unified single- and dual-input models built from Trident's neural
+network components.
+
+## Installation
+
+```bash
+pip install poseigen_mimic
+```
+
+For local development, install from source using your preferred editable-install
+workflow.
+
+## Usage
+
+```python
+from poseigen_mimic import Mimic, Dual_Mimic
+```
+
+## Related Projects
+
+- `poseigen_trident`: neural-network building blocks used by Mimic.
+
+## License
+
+This project is released under the MIT License.

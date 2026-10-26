@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/poseigen_mimic.py
+src/poseigen_mimic.egg-info/PKG-INFO
+src/poseigen_mimic.egg-info/SOURCES.txt
+src/poseigen_mimic.egg-info/dependency_links.txt
+src/poseigen_mimic.egg-info/requires.txt
+src/poseigen_mimic.egg-info/top_level.txt
