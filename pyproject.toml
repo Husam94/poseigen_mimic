@@ -37,9 +37,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/husam94/poseigen"
-Repository = "https://github.com/husam94/poseigen"
-Issues = "https://github.com/husam94/poseigen/issues"
+Homepage = "https://github.com/husam94/poseigen_mimic"
+Repository = "https://github.com/husam94/poseigen_mimic"
+Issues = "https://github.com/husam94/poseigen_mimic/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
